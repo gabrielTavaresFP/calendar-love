@@ -128,3 +128,8 @@ body {
     visibility: hidden;
 }
 
+.euteamo {
+    display:flex;
+    justify-content:flex-end;
+    
+}
