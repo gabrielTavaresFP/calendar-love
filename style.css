@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 5vh;
+    font-size: clamp(24px, 4vw, 40px);
     
 
 }
@@ -37,7 +41,7 @@
 
 .month-year {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 
