@@ -149,3 +149,26 @@ body {
 .empty {
     visibility: hidden;
 }
+
+@media (max-width: 768px) {
+
+  .titulo {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .mywife {
+    font-size: 24px;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .month {
+    padding: 8px;
+  }
+
+  .days-week span,
+  .days span {
+    font-size: 12px;
+  }
+}
